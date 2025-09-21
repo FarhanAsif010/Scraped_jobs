@@ -107,6 +107,8 @@ JobListing/
    ```bash
    python app.py
    ```
+  6. Run the backend from root directory 
+py -m backend.app 
 
 The backend will be available at `http://localhost:5000`
 
@@ -139,15 +141,6 @@ The frontend will be available at `http://localhost:3000`
 cd Scraper
 python scrape.py 
 ```
-
-#### Scraper Options
-
-- `--max-jobs N`: Maximum number of jobs to scrape (default: 100)
-- `--no-headless`: Run browser in visible mode for debugging
-- `--no-db`: Skip saving to database
-- `--no-json`: Skip saving to JSON file
-
-## API Endpoints
 
 ### Jobs
 

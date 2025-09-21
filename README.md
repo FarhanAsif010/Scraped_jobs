@@ -66,7 +66,6 @@ JobListing/
 │   │   ├── api.js               # API integration
 │   │   └── index.js             # React entry point
 │   └── package.json             # Node.js dependencies
-├── run_scraper.py               # Simple scraper runner script
 └── README.md                    # This file
 ```
 

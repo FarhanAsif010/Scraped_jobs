@@ -133,17 +133,11 @@ The frontend will be available at `http://localhost:3000`
 
 ### Web Scraper Setup
 
-#### Option 1: Simple Runner Script
-
-```bash
-python run_scraper.py
-```
-
-#### Option 2: Direct Scraper Usage
+#### Direct Scraper Usage
 
 ```bash
 cd Scraper
-python scrape.py --max-jobs 100
+python scrape.py 
 ```
 
 #### Scraper Options

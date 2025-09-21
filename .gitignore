@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+.env
+
+# Build outputs
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Python (if scraper is Python-based)
+__pycache__/
+*.pyc
+.venv/
+.env/
+
+# Coverage / testing
+coverage/
